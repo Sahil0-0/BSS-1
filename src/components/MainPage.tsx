@@ -14,7 +14,8 @@ const MainPage = () => {
         borderWidth={"1px"}
         borderColor={"black"}
         borderRadius={"20px"}
-        overflow={"hidden"}
+        overflow={"hidden"} 
+        bgColor={'white'}
       >
         <PrimaryFilter />
         <SecondaryFilterSection />
