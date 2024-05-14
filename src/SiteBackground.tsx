@@ -1,5 +1,5 @@
 import { Box, BoxProps } from "@chakra-ui/react";
-import siteBG from "../../Web-Design-one/src/assets/icons/design-2.svg";
+import siteBG from "./assets/icons/design-2.svg";
 import { ReactNode } from "react";
 
 interface BackgroundProps extends BoxProps {
@@ -8,14 +8,7 @@ interface BackgroundProps extends BoxProps {
 
 const SiteBackground = ({ children, ...rest }: BackgroundProps) => {
   return (
-    <Box
-      bgImage={siteBG}
-      bgSize="100%"
-      h="100vh"
-      
-      {...rest}
-
-    >
+    <Box bgImage={siteBG} bgSize="100%" h="100vh" {...rest}>
       {children}
     </Box>
   );
