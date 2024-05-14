@@ -25,10 +25,14 @@ const Header = () => {
             <SearchIcon></SearchIcon>
           </InputLeftElement>
           <Input
+            bgColor={"white"}
             type="text"
             placeholder="Search key word.."
             borderRadius="full"
             size={"50px"}
+            variant={'outline'}
+            borderWidth={'1px'}
+            borderColor={'black'}
           />
         </InputGroup>
       </Box>
@@ -56,9 +60,7 @@ const Header = () => {
         <Button
           leftIcon={<Announcement />}
           boxSize={"Automatic"}
-          
           borderRadius={"full"}
-          
           variant={"unstyled"}
         />
         <Button
