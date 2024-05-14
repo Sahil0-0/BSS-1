@@ -1,5 +1,7 @@
 import { Box, BoxProps } from "@chakra-ui/react";
-import siteBG from "./assets/icons/design-2.svg";
+
+import siteBG from "../src/assets/icons/design.jpg";
+
 import { ReactNode } from "react";
 
 interface BackgroundProps extends BoxProps {
